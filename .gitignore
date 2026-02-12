@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Downloaded media files
+*.mp3
+*.mp4
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup folder
+Backup/
+
+# Tool config
+.playwright-mcp/
