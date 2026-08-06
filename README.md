@@ -17,6 +17,7 @@ Tested and confirmed working on **Sandwell Council** webcasts.
 
 - **GUI** — paste a URL, pick audio/video, click Download
 - **CLI** — scriptable with `--audio-only`, `--video-only`, `--output-dir`
+- **Chrome extension** — download straight from the browser, see [`chrome-extension/`](chrome-extension/)
 - **Resumable downloads** — interrupted transfers pick up where they left off
 - **Cross-platform** — Windows, macOS, and Linux with 1-click installers
 
@@ -42,6 +43,10 @@ Double-click **`install.bat`**, then double-click **`run_gui.bat`**.
 ```
 
 > **macOS Tahoe note:** The installer uses Homebrew Python 3.13 + `python-tk@3.13` to avoid Apple's broken system-Python tkinter.
+
+### Chrome extension (no Python needed)
+
+Load the [`chrome-extension/`](chrome-extension/) folder as an unpacked extension via `chrome://extensions/` → **Developer mode** → **Load unpacked**. Full instructions in [chrome-extension/README.md](chrome-extension/README.md).
 
 ## Installation details
 
