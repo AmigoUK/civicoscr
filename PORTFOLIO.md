@@ -72,10 +72,19 @@ conflicts with the site's conventions, the site's conventions win.
 
 ## Images (paths relative to repo root)
 
-- `how to download it.jpg` — GUI screenshot with usage annotations (good hero image)
-- `Downloads_folder.jpg` — resulting files in the Downloads folder
+Screenshots — use these; do not skip imagery in the entry:
+
 - `store/screenshot-1280x800.jpg` — polished 1280×800 promo shot of the
-  Chrome extension popup (best-looking asset; strong hero candidate)
+  Chrome extension popup on a branded background (best-looking asset;
+  strong hero candidate)
+- `screenshots/extension-popup.png` — extension popup, default empty state
+  (2× retina PNG)
+- `screenshots/extension-popup-success.png` — popup after starting MP3+MP4
+  downloads, success status (2× retina PNG)
+- `screenshots/extension-popup-error.png` — popup showing the
+  unpublished-stream error state (2× retina PNG)
+- `how to download it.jpg` — GUI screenshot with usage annotations
+- `Downloads_folder.jpg` — resulting files in the Downloads folder
 - `chrome-extension/icons/icon128.png` — app icon (blue rounded square,
   white download arrow)
 
