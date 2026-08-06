@@ -3,6 +3,7 @@
   "name": "Civico.net Downloader",
   "version": "1.0.0",
   "description": "Download audio (MP3) and video (MP4) from civico.net council meeting webcasts.",
+  "homepage_url": "https://github.com/AmigoUK/civicoscr",
   "permissions": ["downloads", "activeTab"],
   "host_permissions": [
     "https://admin.civico.net/*",

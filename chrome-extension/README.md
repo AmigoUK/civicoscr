@@ -29,6 +29,20 @@ are named `{streamId}_{title}.mp3` / `.mp4`, matching the CLI tool.
 Note: only **published** streams have downloadable audio/video — the extension
 tells you if a stream isn't published yet.
 
+## Publishing to the Chrome Web Store
+
+Everything needed for a store submission lives in [`../store/`](../store/):
+listing text, permission justifications, privacy policy, and a 1280×800
+screenshot. Build the upload ZIP with:
+
+```bash
+./package.sh   # produces ../dist/civico-downloader-v<version>.zip
+```
+
+Bump `"version"` in `manifest.json` before each new upload. See
+[`../store/store-listing.md`](../store/store-listing.md) for the full
+step-by-step.
+
 ## How it works
 
 Same flow as `scraper.py`:
