@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Civico.net Downloader",
+  "version": "1.0.0",
+  "description": "Download audio (MP3) and video (MP4) from civico.net council meeting webcasts.",
+  "homepage_url": "https://github.com/AmigoUK/civicoscr",
+  "permissions": ["downloads", "activeTab"],
+  "host_permissions": [
+    "https://admin.civico.net/*",
+    "https://vod.civico.net/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

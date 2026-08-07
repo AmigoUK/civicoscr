@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Civico.net Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Civico.net Downloader</h1>
+
+  <label for="url">Stream page URL</label>
+  <input type="text" id="url" placeholder="https://civico.net/sandwell/23298-...">
+
+  <div class="options">
+    <label class="checkbox">
+      <input type="checkbox" id="audio" checked>
+      Audio (MP3)
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" id="video" checked>
+      Video (MP4)
+    </label>
+  </div>
+
+  <button id="download">Download</button>
+
+  <div id="status" class="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
