@@ -15,6 +15,12 @@ conflicts with the site's conventions, the site's conventions win.
 - **Repo:** https://github.com/AmigoUK/civicoscr (**private** — do not link it
   publicly unless it has been made public; check first, and if it is still
   private describe the project without a source link)
+- **Latest release:** v1.0.0 —
+  https://github.com/AmigoUK/civicoscr/releases/tag/v1.0.0 (first Chrome
+  extension release; ships `civico-downloader-v1.0.0.zip` as a downloadable
+  asset). Same caveat as the repo link: it is only reachable while the repo
+  is private to people with access, so link it publicly only once the repo
+  is public — until then cite it as "v1.0.0 released" without a link.
 - **Live demo:** none (desktop/browser tool)
 
 ## Suggested entry copy
@@ -98,6 +104,9 @@ hotlink to GitHub (the repo is private, raw links will 404 for visitors).
 - ~200-line core (`scraper.py`); the extension is dependency-free vanilla JS
 - Store-ready: `dist/civico-downloader-v1.0.0.zip` builds via
   `chrome-extension/package.sh`
+- Released as **v1.0.0** on GitHub Releases, with a GitHub Actions workflow
+  (`.github/workflows/release.yml`) that publishes the extension ZIP
+  automatically on every `v*` tag or manual dispatch
 
 ## Constraints — do not skip
 
