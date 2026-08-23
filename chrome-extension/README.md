@@ -29,6 +29,14 @@ are named `{streamId}_{title}.mp3` / `.mp4`, matching the CLI tool.
 Note: only **published** streams have downloadable audio/video — the extension
 tells you if a stream isn't published yet.
 
+## Legal
+
+The popup footer carries a short disclaimer plus an expandable "Legal
+notice"; the full text is in [`../DISCLAIMER.md`](../DISCLAIMER.md). In
+short: not affiliated with Civico or any council, recordings remain the
+property of their owners, and you are responsible for complying with the
+council's terms and applicable law.
+
 ## Publishing to the Chrome Web Store
 
 Everything needed for a store submission lives in [`../store/`](../store/):
