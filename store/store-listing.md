@@ -34,9 +34,16 @@ registration fee applies to new accounts.
 > Notes:
 > - Only published streams have downloadable recordings; the extension tells
 >   you if a stream is not yet published.
-> - This extension is not affiliated with Civico. Check the relevant
->   council's privacy policy and terms before downloading content.
 > - Open source: https://github.com/AmigoUK/civicoscr
+>
+> Legal: This extension is an independent tool and is not affiliated with,
+> endorsed by, or connected to Civico or any council. It only automates
+> access to recordings that councils have already made publicly available —
+> it does not bypass any authentication or access controls. Recordings
+> remain the property of the respective council and/or its streaming
+> provider. You are responsible for ensuring your use of downloaded material
+> complies with the council's terms of use, privacy policy, and applicable
+> copyright law. Provided "as is", without warranty of any kind.
 
 ## Graphic assets
 
@@ -78,6 +85,15 @@ metadata and media.
 **Privacy policy URL:** required field — host `store/privacy-policy.md`
 somewhere public (GitHub Pages, a public gist, or make the repo public and use
 the raw file URL), then paste that URL.
+
+## Legal / disclaimer
+
+The full legal disclaimer lives in [`../DISCLAIMER.md`](../DISCLAIMER.md)
+(no affiliation with Civico or any council, content ownership, user
+responsibilities, no warranty, takedown contact). A short version is baked
+into the extension popup itself (footer + expandable "Legal notice"), and a
+condensed paragraph is part of the store description above — keep all three
+in sync if the wording changes.
 
 ## Upload
 
